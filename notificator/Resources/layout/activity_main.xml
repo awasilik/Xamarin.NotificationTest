@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center"
+  android:background="#ffffff">
+
+  <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:textSize="24dp"
+    android:text="Test notification"/>
+
+  <Button
+    android:id="@+id/show_button"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginTop="124dp"
+    android:layout_marginHorizontal="16dp"
+    android:textSize="16dp"
+    android:gravity="center"
+    android:background="#8829ab87"
+    android:text="Show notification"/>
+
+  <Button
+    android:id="@+id/dismiss_button"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginTop="24dp"
+    android:layout_marginHorizontal="16dp"
+    android:textSize="16dp"
+    android:gravity="center"
+    android:background="#8829ab87"
+    android:text="Hide notification"/>
+
+</LinearLayout>
